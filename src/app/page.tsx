@@ -1,3 +1,5 @@
+import { CreateSessionButton } from "@/components/CreateSessionButton";
+
 export default function Home() {
   return (
     <div className="flex flex-1 flex-col bg-cream">
@@ -6,12 +8,7 @@ export default function Home() {
       </h1>
       <div className="flex flex-1 items-center justify-center">
         <div className="flex flex-col gap-4">
-          <button
-            type="button"
-            className="w-64 rounded-full bg-umber px-8 py-3 text-lg font-medium text-cream"
-          >
-            create a session
-          </button>
+          <CreateSessionButton />
           <button
             type="button"
             className="w-64 rounded-full bg-umber px-8 py-3 text-lg font-medium text-cream"
