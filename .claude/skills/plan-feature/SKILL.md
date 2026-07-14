@@ -9,7 +9,7 @@ The only artifact is one plan document. The feature to plan is: $ARGUMENTS
 
 ## Context loaded automatically
 !`cat CLAUDE.md 2>/dev/null`
-!`ls docs/plans/ 2>/dev/null`
+!`ls docs/plans/ 2>/dev/null || echo "(no docs/plans/ yet)"`
 !`git status --porcelain 2>/dev/null | head -20`
 
 ## Instructions
